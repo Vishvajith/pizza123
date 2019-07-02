@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="@mipmap/background2">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:layout_gravity="center_horizontal">
+
+            <ImageView
+                android:layout_marginLeft="350px"
+                android:layout_marginTop="100px"
+                android:id="@+id/imageView"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:padding="4dp"
+                android:background="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/textViewname"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="500px"
+                android:text="Apple MacBook Air Core i5 5th Gen - (8 GB/128 GB SSD/Mac OS Sierra)"
+                android:textStyle="bold"
+                android:textSize="50px"
+                android:textColor="#000000" />
+
+            <TextView
+                android:gravity="center"
+                android:layout_marginRight="100px"
+                android:id="@+id/textViewDescriptn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100px"
+                android:layout_marginTop="700px"
+                android:text="13.3 Inch, 256 GB"
+                android:textColor="#111"
+                android:textSize="60px"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:gravity="center_horizontal"
+                android:id="@+id/textViewPr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100px"
+                android:layout_marginTop="900px"
+               android:layout_marginRight="100px"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="4.7"
+                android:textSize="50px"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+        <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+            android:id="@+id/elliganb"
+            android:layout_width="500px"
+            android:layout_height="130px"
+            android:layout_marginTop="1100px"
+            app:initialNumber="1"
+            app:finalNumber="10"
+            app:textSize="25px"
+            app:textColor="#111"
+            android:layout_marginLeft="300px" >
+
+        </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@mipmap/cart"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="530dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ADD TO CART"
+                android:layout_marginTop="500dp"
+                android:layout_marginLeft="165dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="16dp"/>
+
+
+
+        </RelativeLayout>
+</LinearLayout>
